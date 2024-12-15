@@ -1,3 +1,5 @@
+![beets_import_auto](https://socialify.git.ci/u2pitchjami/beets_import_auto/image?description=1&descriptionEditable=check%20if%20to%20restart%20beets%20auto%20import%20if%20is%20down&language=1&logo=https%3A%2F%2Fgreen-berenice-35.tiiny.site%2Fimage2vector-3.svg&name=1&owner=1&pattern=Charlie%20Brown&stargazers=1&theme=Dark)
+
 <h1 align="center">Welcome to Beets Import Auto 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1-blue.svg?cacheSeconds=2592000" />
@@ -10,9 +12,16 @@
 
 ## Install
 
-```sh
-Clone the repository
-```
+- clone the repository
+
+- Create and edit .config.cfg
+
+![image](https://github.com/user-attachments/assets/6694a6fa-1385-40bd-bb48-fe832c027cfd)
+
+- Edit your crontab (for me all hour)
+
+- enjoy
+
 
 ## Author
 
