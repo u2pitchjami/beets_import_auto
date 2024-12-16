@@ -13,13 +13,21 @@
 ## Install
 
 - clone the repository
-
+```bash
+git clone https://github.com/u2pitchjami/beets_import_auto.git
+```  
 - Create and edit .config.cfg
-
+```bash
+cd beets_import_auto
+sudo mv .config.cfg.example .config.cfg
+sudo nano .config.cfg
+``` 
 ![image](https://github.com/user-attachments/assets/6694a6fa-1385-40bd-bb48-fe832c027cfd)
 
 - Edit your crontab (for me all hour)
-
+```bash
+crontab -e
+``` 
 - enjoy
 
 
