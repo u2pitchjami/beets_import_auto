@@ -25,13 +25,14 @@ if [ -f $CONFIG_NORMAL ]; then
     mv "${CONFIG_NORMAL}" "${CONFIG}"
 fi
 echo -e "[`date`] - Démarrage du script import auto beets :" | tee -a $LOG
-source $BEETS_ENV
+#source $BEETS_ENV
 if pgrep -x "beet" > /dev/null
 then
     echo "beets Running" | tee -a $LOG
 else
     echo "beets Stopped" | tee -a $LOG
     echo "restart beets" | tee -a $LOG
-    source $BEETS_ENV
+    #source $BEETS_ENV
+    #docker compose -f /home/pipo/bin/beets-xtractor-docker/docker-compose.yml run --rm -p 8337:8337 beets beet import "${BASE}"
     beet import "${BASE}"
 fi
